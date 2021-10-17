@@ -249,6 +249,25 @@ body {
     color:var(--second-text-color);
   }
 
+  .features-container {
+      display: flex;
+      margin-top: 94px;
+  }
+
+  .features-list {
+      display: flex;
+  }
+
+  .features-text {
+      margin-top: 10px;
+  }
+
+  .features-item:not(:last-child) {
+      margin-right: 30px;
+  }
+
+
+
   /*-----team----*/
 
   .team-item-title {
