@@ -122,7 +122,6 @@ body {
     background-color: var(--header-color);
     padding-top: 24px;
     padding-bottom: 24px;
-    margin-bottom: 200px;
 }
 
 .header-container {
@@ -206,12 +205,13 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    text-align: center;
     letter-spacing: 0.06em;
     color:var(--primary-title-color);
 
-    width: 696px;
-    height: 120px;
+    padding-top: 200px;
+    padding-left :452px;
+    padding-right: 452px;
+    margin-bottom: 30px;
 }
 
 
@@ -219,7 +219,6 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-    text-align: center;
     letter-spacing: 0.06em;
     color: var(--primary-title-color);
     background-color: var(--accent-color);
