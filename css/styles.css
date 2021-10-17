@@ -120,6 +120,9 @@ body {
 
 .header {
     background-color: var(--header-color);
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 200px;
 }
 
 .header-container {
@@ -195,6 +198,8 @@ body {
 .hero {
     background-color:var(--secondary-background-color);
     text-align: center;
+    width: 1600px;
+    height: 600px;
 }
 
 .hero-title {
@@ -204,6 +209,9 @@ body {
     text-align: center;
     letter-spacing: 0.06em;
     color:var(--primary-title-color);
+
+    width: 696px;
+    height: 120px;
 }
 
 
