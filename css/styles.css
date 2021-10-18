@@ -507,11 +507,11 @@ body {
     flex-direction: column;
 }
 
-.contacts-list {
+.contacts-address {
     margin-top: 20px;
 }
 
-.contacts-list::nth-last-child(-n + 3) {
+.contacts-list:first-child {
     margin-top: 9px;
 }
 
