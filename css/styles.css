@@ -211,6 +211,7 @@ body {
 
 .contacts-item {
     display: flex;
+    margin-left: auto;
 }
 
 
