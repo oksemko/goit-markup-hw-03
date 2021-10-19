@@ -257,11 +257,13 @@ ul {
     letter-spacing: 0.06em;
     color: var(--primary-title-color);
     background-color: var(--accent-color);
+    text-decoration: none;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-    text-decoration: underline;
+    text-decoration: blink;
+    text-decoration-color:var(--accent-color);
 }
 
 
