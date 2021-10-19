@@ -302,6 +302,7 @@ ul {
     line-height: 1.14;
     letter-spacing: 0.03em;
     color:var(--secondary-title-color);
+    text-transform: uppercase;
   }
 
 .features-text {
@@ -341,9 +342,20 @@ ul {
 /*-----flex-----*/
 
 
+.activity-section {
+    padding-top: 0;
+}
+
+
 .activity-container {
     display: flex;
     flex-wrap: wrap;
+}
+
+
+.activity-title {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -387,6 +399,13 @@ ul {
     display: flex;
     flex-wrap: wrap;
   }
+
+
+.team-title {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .team-list {
     display: flex;
