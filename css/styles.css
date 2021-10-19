@@ -525,26 +525,15 @@ ul {
  
  
  .footer-container {
-    display: flex;
     flex-direction: column;
-}
-
-
-.footer-container {
-    margin-left: 215px;
 }
 
 .contacts-list {
-    display: flex;
-    flex-direction: column;
-}
-
-.contacts-address {
     margin-top: 20px;
 }
 
 .contacts-list:first-child {
-    margin-top: 9px;
+    margin-bottom: 9px;
 }
 
 
