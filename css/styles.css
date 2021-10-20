@@ -24,7 +24,8 @@ ul {
 
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -43,6 +44,7 @@ body {
     background-color: var(--background-color);
 }
 
+
 .container {
     width: 1200px;
     padding-left: 15px;
@@ -51,18 +53,16 @@ body {
     margin-right: auto;
 }
 
-.list {
-    list-style: none;
-}
-
 
 .link {
     text-decoration: none;
 }
 
+
 .btn{
     cursor: pointer;
 }
+
 
 .section {
     padding-top: 94px;
@@ -139,6 +139,7 @@ body {
 
 /*-----header-----*/
 
+
 .header {
     background-color: var(--header-color);
 }
@@ -208,6 +209,7 @@ body {
     margin-right: 50px;
 }
 
+
 .header-contacts-list {
     display: flex;
     margin-left: auto;
@@ -255,10 +257,12 @@ body {
     background-color: var(--accent-color);
 }
 
+
 .hero-btn:hover,
 .hero-btn:focus {
     background-color:#188CE8;
 }
+
 
 .hero-btn {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -311,7 +315,7 @@ body {
     color:var(--second-text-color);
 }
 
-/*-----flex-----*/
+/*-----container-----*/
 
   
 .features-container {
@@ -330,15 +334,15 @@ body {
 }
 
 
-.features-text {
-    margin-top: 10px;
+.features-title {
+    margin-bottom: 10px;
 }
 
 
 
 /*-----activity-----*/
 
-/*-----flex-----*/
+/*-----container-----*/
 
 
 .activity-section {
@@ -355,12 +359,12 @@ body {
 .activity-title {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 
 .activity-list {
-    display: flex;
-    margin-top: 50px;
+    display: flex;    
 }
 
 
@@ -389,7 +393,8 @@ body {
     color:var(--second-text-color)
   }
 
-  /*-----flex-----*/
+
+  /*-----container-----*/
 
 
 .team-section {
@@ -408,12 +413,12 @@ body {
 .team-title {
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 50px;
 }
 
 
 .team-list {
-    display: flex;
-    margin-top: 50px;
+    display: flex;  
 }
   
 
@@ -431,8 +436,8 @@ body {
     padding-bottom: 30px;
 }
 
-.team-item-text {
-    margin-top: 10px;
+.team-item-title {
+    margin-bottom: 10px;
 }
 
 
@@ -533,8 +538,6 @@ body {
 
 
 
-
-
 /*-----portfolio page-----*/
 
 
@@ -547,6 +550,7 @@ body {
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
     background-color: var(--third-background-color);
+
     padding-top: 6px;
     padding-bottom: 6px;
     padding-left: 22px;
@@ -562,22 +566,14 @@ body {
 }
 
 
-/*-----portfolio-container-----*/
-
-
-
 /*-----flex-----*/
 
 
 .filter-list {
     display: flex;
     margin-left: auto;
-    margin-right: auto;  
-}
-
-
-.filter-list {
-    justify-content: center;
+    margin-right: auto;
+    justify-content: center;  
 }
 
 
@@ -590,6 +586,7 @@ body {
 .filter-item:not(:last-child) {
     margin-right: 8px;
 }
+
 
 
 /*-----Portfolio gallery-----*/
@@ -651,10 +648,4 @@ body {
 
 .portfolio-item-text {
     margin-top: 4px;
-}
-
-img {
-    display: block;
-    width: 100%;
-    height: auto;
 }
