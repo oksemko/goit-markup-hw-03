@@ -14,15 +14,19 @@ p, h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
 
+
 ul {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
+
 
 img {
     display: block;
     max-width: 100%;
 }
+
 
 a {
     display: block;
@@ -133,7 +137,6 @@ body {
 }
 
 
-
 /*-----header-----*/
 
 .header {
@@ -179,7 +182,7 @@ body {
 
 
 .header {
-    border-bottom: 1px solid rgba(236, 236, 236, 1);
+    border-bottom: 1px solid #ECECEC;
 }
 
 
@@ -208,13 +211,6 @@ body {
 .header-contacts-list {
     display: flex;
     margin-left: auto;
-}
-
-
-ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 
@@ -524,18 +520,14 @@ ul {
     padding-bottom: 60px;
     margin-left: auto;
     margin-right: auto;
- }
- 
- 
- .footer-container {
-    flex-direction: column;
 }
+
 
 .contacts-list {
     margin-top: 20px;
 }
 
-.contacts-list:first-child {
+.contacts-item {
     margin-bottom: 9px;
 }
 
