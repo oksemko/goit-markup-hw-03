@@ -539,12 +539,6 @@ body {
 
 
 .filter-btn {
-    color:var(--third-background-color);
-    border: none;
-}
-
-
-.filter-btn {
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -552,6 +546,13 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color:var(--primary-text-color);
+    background-color: var(--third-background-color);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 22px;
+    padding-right: 22px;
+    border: none;
+
 }
 
 .filter-btn:hover,
