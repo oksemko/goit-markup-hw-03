@@ -217,7 +217,7 @@ body {
 }
 
 
-.contacts-item:not(:last-child) {
+.header-contacts-item:not(:last-child) {
     margin-right: 50px;
 }
 
@@ -529,11 +529,11 @@ body {
 }
 
 
-.contacts-list {
+.contacts-address {
     margin-top: 20px;
 }
 
-.contacts-item {
+.footer-contacts-item {
     margin-bottom: 9px;
 }
 
@@ -572,8 +572,6 @@ body {
 
 .filter-list {
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
     justify-content: center;  
 }
 
@@ -611,19 +609,13 @@ body {
     color:var(--second-text-color);
 }
 
-.portfolio-section {
-    width: 1200px;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
 
 /*-----flex-----*/
 
 
 .portfolio-list {
+    width: 1200px;
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -641,6 +633,8 @@ body {
 .portfolio-item-description {
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
     border-right: 1px solid rgba(238, 238, 238, 1);
     border-bottom: 1px solid rgba(238, 238, 238, 1);
     border-left: 1px solid rgba(238, 238, 238, 1);
